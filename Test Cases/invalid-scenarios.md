@@ -101,7 +101,8 @@
 | **Endpoint**        | `/boards/5f3e2d1c4b8a9c7f6e5d4a3b` |
 | **Expected Status** | 404 Not Found                      |
 | **Assertion**       | `pm.response.to.have.status(404)`  |
-| **Status**          | ❌ (bug-001)                       |
+| **Status**          | ❌                                 |
+| **Bug Report**          | BUG-001                                |
 
 ---
 
@@ -141,7 +142,8 @@
 | **Params**          | `name=` (empty)                   |
 | **Expected Status** | 400 Bad Request                   |
 | **Assertion**       | `pm.response.to.have.status(400)` |
-| **Status**          | ❌ (bug-002)                      |
+| **Status**          | ❌                       |
+| **Bug Report**          | BUG-002                       |
 
 ---
 
@@ -357,10 +359,10 @@
 
 | Feature            | Total Invalid TCs | Passed | Failed |
 | ------------------ | ----------------- | ------ | ------ |
-| Auth / Credentials | 4                 | -      | -      |
-| Board              | 5                 | -      | -      |
-| List               | 4                 | -      | -      |
-| Card               | 5                 | -      | -      |
-| CheckList          | 5                 | -      | -      |
-| Org (Workspace)    | 3                 | -      | -      |
-| **Total**          | **26**            | -      | -      |
+| Auth / Credentials | 4                 | 4      | -      |
+| Board              | 5                 | 4      | 1      |
+| List               | 4                 | 3      | 1      |
+| Card               | 5                 | 5      | -      |
+| CheckList          | 5                 | 5      | -      |
+| Org (Workspace)    | 3                 | 3      | -      |
+| **Total**          | **26**            | 24      | 2      |
