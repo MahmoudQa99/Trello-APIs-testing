@@ -13,13 +13,13 @@ End-to-end API testing project for Trello REST APIs using Postman and Newman.
 
 | Module | Requests | Assertions |
 |---|---|---|
-| Setup | 6 | 18 |
-| Board | 5 | 15 |
-| List | 4 | 12 |
-| Card | 6 | 18 |
-| CheckList | 4 | 12 |
-| Organization (Workspace) | 3 | 9 |
-| Teardown | 5 | - |
+| Setup | 8 | 41 |
+| Board | 4 | 15 |
+| List | 8 | 33 |
+| Card | 4 | 18 |
+| CheckList | 3 | 11 |
+| Organization (Workspace) | 2 | 6 |
+| Teardown | 4 | 9 |
 | **Total** | **33** | **133** |
 
 ---
