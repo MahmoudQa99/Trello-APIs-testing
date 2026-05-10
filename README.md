@@ -58,7 +58,7 @@ End-to-end API testing project for Trello REST APIs using Postman and Newman.
 ### Using Postman
 1. Import:
    - `Collections/Collection.json`
-   - `Environment/Environment_template.json`
+   - `Environment/environment.json`
 
 2. Add your:
    - `api_key`
@@ -71,4 +71,4 @@ End-to-end API testing project for Trello REST APIs using Postman and Newman.
 ### Using Newman
 
 ```bash
-newman run Collection.json -e Environment_template.json
+newman run Collection.json -e environment.json
